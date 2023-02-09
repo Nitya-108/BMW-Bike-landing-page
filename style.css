@@ -12,7 +12,7 @@
     background-size: cover;
     background-position: center;
     padding: 20px 10px;
-    transition: background-image 1s;
+    transition: background-image 0.3s;
 }
 
 nav {
@@ -20,12 +20,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 40px 20px;
 }
 
 nav .logo{
     width: 160px;
     cursor: pointer;
+    
 }
 
 nav .btn {
@@ -34,15 +35,18 @@ nav .btn {
     background: #333;
     padding: 15px 50px;
     border-radius: 30px;
+    
 }
 
 .content {
     margin-top: 10%;
+    padding: 0 40px;
 }
 
 .content h2 {
     color: red;
     font-size: 34px;
+    padding: 0 0 40px;
 }
 
 .content h1 {
